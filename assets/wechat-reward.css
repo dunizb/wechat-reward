@@ -1,5 +1,4 @@
 .gave {
-    height: 110px;
     position: relative;
     text-align: center;
 }
@@ -24,32 +23,35 @@
     color: #68b3de;
     display: none;
     font-size: 13px;
-    height: 160px;
+    /*height: 160px;*/
     left: 50%;
     box-sizing: content-box;
-    margin-left: -110px;
-    padding: 20px;
+    margin-left: -123px;
+    padding:5px;
     position: absolute;
-    width: 180px;
+    width:230px;
     z-index: 999;
     text-align: center;
 }
 .gave a {
-    background: #f06363 none repeat scroll 0 0;
+    background: linear-gradient(to bottom,#fccd60 0,#fbae12 100%,#2989d8 100%,#207cca 100%);
+    border: 1px solid #f1b60e;
     border-radius: 50%;
     color: #fff !important;
     display: inline-block;
-    font-size: 18px;
-    height: 75px;
-    line-height: 75px;
+    font-size: 2.4rem;
+	line-height: 4.6rem;
     text-align: center;
-    width: 75px;
-    text-decoration: none;
+	text-decoration: none;
+    width: 4.6rem;
+    -webkit-user-select: none;
+    height: 4.6rem;
+    vertical-align: middle;
 }
 
 .gave .code > img {
     height: 124px;
-    width: 124px;
+    /*width: 124px;*/
     border: medium none;
     max-width: 100%;
 }
